@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'inter';
+}
+
+header {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40vw;
+    margin: 0 auto;
+    margin-top: 180px;
+}
+
+.title h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5vw;
+    line-height: 3.02vw;
+}
+
+.title p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6vw;
+    line-height: 2.03125vw;
+}
+
+.logo img {
+    width: 6.14583vw;
+}
+
+.logo {
+    margin-right: 22px;
+}
+
+main {
+    margin-top: 35px;
+}
+
+.username,
+.password {
+    width: 556px;
+    height: 71px;
+    border: 3px solid #FFFFFF;
+    background-color: rgba(217, 217, 217, 0.15);
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.password {
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.password img {
+    cursor: pointer;
+}
+
+input {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    /* display: none; */
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    flex: 1;
+    margin-right: 20px;
+}
+
+input::-ms-clear,
+input::-ms-reveal {
+    display: none;
+}
